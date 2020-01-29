@@ -24,3 +24,47 @@ body{
   .nav-bar a:hover {
     background-color:#4867aa;
   }
+
+  footer {
+    background-color: #44609c;
+    color: #fff;
+    padding: 1.5em;
+    margin-top: 18.5em;
+  
+   
+  }
+  
+  #rights {
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(179, 174, 174);
+  }
+
+  #donate{
+    color:fuchsia;
+  }
+  
+  .priv-policy {
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(179, 174, 174);
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  
+  .footer-grid-2 {
+    line-height: 15px;
+  }
+
+  .justify-icons{
+    display: flex;
+    justify-content: space-evenly;
+  }
