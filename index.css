@@ -17,7 +17,7 @@ body {
 
 #currentlyOn {
   border-bottom: 3px solid #fc284b;
-  color: #fc284b;
+  color: #fa183d;
 }
 
 .nav-bar a {
@@ -29,7 +29,7 @@ body {
 }
 
 .nav-bar a:hover {
-  border-bottom: 3px solid #ff3758;
+  border-bottom: 3px solid #fc5571;
 }
 
 footer {
