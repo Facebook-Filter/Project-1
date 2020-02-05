@@ -2,14 +2,14 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #dee8fd;
+  background-image: linear-gradient(#ffffff, #839bd3);
 }
 
 .nav-bar {
   color: black;
   display: flex;
   flex-direction: row;
-  background-color: #dee8fd;
+  background-color: transparent;
   white-space: nowrap;
   justify-content: space-evenly;
   overflow: hidden;
@@ -18,6 +18,11 @@ body {
 #currentlyOn {
   border-bottom: 3px solid #fc284b;
   color: #fa183d;
+}
+
+.donate-button {
+  color: fuchsia!important;
+  margin-left: 3em;
 }
 
 .nav-bar a {
@@ -32,8 +37,12 @@ body {
   border-bottom: 3px solid #fc5571;
 }
 
+.logo {
+  background: url("#");
+}
+
 footer {
-  background-color: #44609c;
+  background-color: #32539c;
   color: #fff;
   padding: 1.5em;
   margin-top: 18.5em;
