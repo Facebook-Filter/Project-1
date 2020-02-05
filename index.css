@@ -2,14 +2,24 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
-  background-image: linear-gradient(#ffffff, #839bd3);
+  background-image: linear-gradient(#ffffff, #32539c);
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #eff2f7;
+}
+
+main {
+  margin: 5em;
 }
 
 .nav-bar {
   color: black;
   display: flex;
   flex-direction: row;
-  background-color: transparent;
   white-space: nowrap;
   justify-content: space-evenly;
   overflow: hidden;
@@ -42,10 +52,10 @@ body {
 }
 
 footer {
-  background-color: #32539c;
+  background-color: transparent;
   color: #fff;
   padding: 1.5em;
-  margin-top: 18.5em;
+  margin-top: 30em;
 }
 
 #rights {
@@ -57,12 +67,6 @@ footer {
 
 #donate {
   color: fuchsia;
-}
-
-.priv-policy {
-  text-align: center;
-  margin-top: 30px;
-  color: rgb(179, 174, 174);
 }
 
 footer a {
