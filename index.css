@@ -2,27 +2,34 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #dee8fd;
 }
 
 .nav-bar {
-  color: white;
+  color: black;
   display: flex;
   flex-direction: row;
-  background-color: #44609c;
+  background-color: #dee8fd;
   white-space: nowrap;
   justify-content: space-evenly;
+  overflow: hidden;
+}
+
+#currentlyOn {
+  border-bottom: 3px solid #fc284b;
+  color: #fc284b;
 }
 
 .nav-bar a {
   display: inline-block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 15px;
   text-decoration: none;
 }
 
 .nav-bar a:hover {
-  background-color: #4867aa;
+  border-bottom: 3px solid #ff3758;
 }
 
 footer {
@@ -34,10 +41,9 @@ footer {
 
 #rights {
   display: flex;
-  align-self: center;
+  justify-content: center;
   margin-top: 50px;
-  margin-right: 20%;
-  color: rgb(179, 174, 174);
+  color: #b3aeae;
 }
 
 #donate {
@@ -68,28 +74,3 @@ footer a {
   display: flex;
   justify-content: space-evenly;
 }
-
-.i-facebook {
-  margin-right: -130%;
-  position: absolute;
-}
-
-.i-insta {
-  margin-right: -135%;
-  position: absolute;
-}
-
-.i-twitter {
-  margin-right: -140%;
-  position: absolute;
-}
-
-.i-message {
-  margin-right: -145%;
-  position: absolute;
-}
-
-/* .privacy-right{
-  display:grid;
-  grid-template-columns: 1fr 1fr;
-} */
