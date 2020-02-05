@@ -2,14 +2,17 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
-  background-image: linear-gradient(#ffffff, #1e4291);
 }
 
 header {
   position: fixed;
   width: 100%;
   top: 0;
-  background-color: #ebeef5;
+  background-color: #ffffff;
+}
+
+.mainandfooter {
+  background-image: linear-gradient(#ffffff, #1e4291);
 }
 
 main {
@@ -53,7 +56,7 @@ main {
 
 footer {
   background-color: transparent;
-  color: #fff;
+  color: #ffffff;
   padding: 1.5em;
   margin-top: 30em;
 }
