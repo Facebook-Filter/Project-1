@@ -4,6 +4,12 @@ body {
   padding: 0;
 }
 
+.logo {
+  background: url("images/facebook-logo.png") no-repeat;
+  width: 3em;
+  height: 3em;
+}
+
 header {
   position: fixed;
   width: 100%;
@@ -48,10 +54,6 @@ main {
 
 .nav-bar a:hover {
   border-bottom: 3px solid #fc5571;
-}
-
-.logo {
-  background: url("#");
 }
 
 footer {
