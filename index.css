@@ -22,7 +22,7 @@ header {
 }
 
 main {
-  margin: 5em;
+  margin: 7em;
 }
 
 .nav-bar {
@@ -60,7 +60,7 @@ footer {
   background-color: transparent;
   color: #ffffff;
   padding: 1.5em;
-  margin-top: 30em;
+  margin-top: 7em;
 }
 
 #rights {
@@ -91,4 +91,8 @@ footer a {
 .justify-icons {
   display: flex;
   justify-content: space-evenly;
+}
+
+.question {
+  margin-top: 3em;
 }
