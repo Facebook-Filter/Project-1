@@ -64,10 +64,12 @@ body {
 #download-btn{
   color:white;
   background-color: red;
-  margin-left: 43em;
+  margin-left: 30em;
+  margin-right: 50em;
   margin-top: 5em;
   width:200px;
   height: 50px;
+  border-radius: 10%;
 }
 
 
@@ -98,45 +100,6 @@ footer a {
   text-decoration: none;
 }
 
-.footer-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-.footer-grid-2 {
-  line-height: 15px;
-}
-
-.justify-icons {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.i-facebook {
-  margin-right: -130%;
-  position: absolute;
-}
-
-.i-insta {
-  margin-right: -135%;
-  position: absolute;
-}
-
-.i-twitter {
-  margin-right: -140%;
-  position: absolute;
-}
-
-.i-message {
-  margin-right: -145%;
-  position: absolute;
-}
-
-/* .privacy-right{
-  display:grid;
-  grid-template-columns: 1fr 1fr;
-} */
-
 #btn-donate{
   width: 100px;
   background-color: rgb(207, 151, 118);
@@ -150,24 +113,6 @@ footer a {
   color:blue;
 }
 
-#download-here{
-font-size: x-large;
-color:red
-}
-
-.grid-container{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin: 5%;
-  margin-left: 8em;
-}
-
-.space-grid{
-  width: 60%;
-}
-
-
-* {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
@@ -315,5 +260,61 @@ color:red
 .button-container{
   top:-20px;
   position: relative;
+}
+
+@keyframes slider{
+  0%{
+   left:0;
+  }
+
+  20%{
+  left:0;
+  } 
+
+  25%{
+    left:-100%;
+  } 
+
+  45%{
+  left:-100%;
+  }
+
+  50%{
+  left:-200%;
+  }
+
+  70%{
+  left: -200%;
+  }
+
+  75%{
+    left: -300%;
+   }
+
+  95%{
+  left: -300%;
+  }
+
+  100%{
+  left: -400%;
+  }
+  
+}
+
+#slider{
+  overflow: hidden;
+}
+
+#slider figure img{
+  width: 20%;;
+  float: left;
+}
+
+#slider figure{
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 20s slider infinite;
 }
 
