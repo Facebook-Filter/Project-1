@@ -32,6 +32,7 @@ main {
   white-space: nowrap;
   justify-content: space-evenly;
   overflow: hidden;
+  box-shadow: 0 5px 10px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
 }
 
 #currentlyOn {
@@ -95,4 +96,24 @@ footer a {
 
 .question {
   margin-top: 3em;
+}
+
+.feature {
+  margin-top: 3em;
+}
+
+.red {
+  color: red;
+  font-weight: normal;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: min-content 60%;
+}
+
+.rtl {
+  display: grid;
+  grid-template-columns: min-content 60%;
+  direction: rtl;
 }
