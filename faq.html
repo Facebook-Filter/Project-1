@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel= "stylesheet" type= "text/css" href='index-2.css' />
+    <link rel= "stylesheet" type= "text/css" href='index-3.css' />
     <script src="https://kit.fontawesome.com/bed37d49d0.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
@@ -25,6 +25,63 @@
             <input type="button" value="Donate" id="btn-donate">
         </nav>
     </header>
+
+<main>
+    <h1 class="faq-h1">FAQ</h1>
+
+    <h2 id="first-faq-quest">Is This Thing Legit?</h2>
+    <h4 id="first-faq-ans">Yes!
+        Social Fixer is a community project, We are the sole programmer, designer, tester, documentation-writer, and marketer. You can view our personal site or even search Google for our name to see that we have been doing this stuff for a long time, and our reputation is solid. We build it because 
+        weI love to create things, and this is our creative outlet. We have been working on it in our free time since 2009 and there are hundreds of thousands of people who use it every day. Social Fixer has been written about on Lifehacker, ComputerWorld, Adweek and many other places (sometimes under its previous name, Better Facebook) And rest assured - Social Fixer will not compromise your privacy or security, and it won't insert ads, spam, porn, or malware. There are no viruses or spyware. The code is safe. 
+    </h4>
+    <hr>
+
+    <div class="padding-faq">
+    <h2 id="second-faq-quest">Does Social Fixer compromise my privacy or security?</h2>
+    <h4 id="second-faq-ans">
+        No and No. And it never will!
+   Social Fixer is a javascript program that runs in your browser when you are logged into Facebook. It does run as you, and the program has access to your information that is displayed on the page - it needs to in order to process it all! This is standard for any browser script or extension.
+   Requests are made back to the Facebook servers to retrieve your personal data like your friends list, groups, etc. This data is stored in your browser and nowhere else!. None of your data is ever transmitted to any other site, nor stored anywhere but in your browser. The only requests made to non-Facebook servers are the requests made to socialfixer.com to check for new versions and to check for any important messages that need to be displayed. No uniquely identifying information is ever sent.
+   None of your Facebook settings or data is ever changed by Social Fixer. It does not update your personal information, or your status, or your friends lists, or any other information about you or in your account. It only processes information - it never changes it.
+    </h4>
+   </div>
+    <hr>
+
+<div class="padding-faq">
+    <h2 id="third-faq-quest">Does Social Fixer insert ads, spam, porn, or malware?</h2>
+    <h4 id="third-faq-ans">
+        Absolutely not. And it never will!
+        Some other Facebook scripts do insert these things, and their actions are sometimes incorrectly attributed to Social Fixer. Some add-ons that are known to cause problems are: 
+        <ul style="display:inline;">
+            <li>SocialPlus!</li>
+            <li>"I Don't Care" button</li>
+            <li>Facebook Cleaner</li>
+            <li>Faceplus</li>
+        </ul>
+    </h4>
+</div>
+    <hr>
+
+    <div class="padding-faq">
+        <h2 id="fourth-faq-quest">Something isn't working! What's wrong? How do I debug the problem?</h2>
+        <h4 id="fourth-faq-ans">
+            First, understand that Facebook often has glitches and problems on its own. Many problems that users think are caused by SFX are actually just Facebook screwing up. To check, you can always disable SFX and see if the problem persists. You can also view Facebook's Known Problems page on Facebook to see if they are reporting any problems at the moment.
+            Second, understand that Facebook changes their code and page structure seemingly at random. SFX inspects the underlying code that Facebook delivers and looks for known structures in order to extract the information it needs. If the structure changes, then SFX may no longer be able to find the information it needs, and features may stop working. In these cases, I work as fast as I can to release a new version that takes into account these changes. Sometimes, changes are visible to some users and not others. If I don't see the change myself, it is very difficult for me to identify the change that Facebook has made and update the code accordingly. It may take some additional time, and I may need to get assistance from other SFX users. Read more at How It Works (and why it sometimes doesn't).
+        </h4>
+       </div>
+        <hr>
+
+        <div class="padding-faq">
+            <h2 id="fifth-faq-quest">Why does the Chrome extension permissions include "Your tabs and browsing activity"?</h2>
+            <h4 id="fifth-faq-ans">
+                This is indeed confusing, because Social Fixer does not ever access your other tabs or browsing activity.
+                The problem is that Social Fixer needs some special permissions in order to make ajax calls back to SocialFixer.com to check for updates, messages, etc. Unfortunately, the permission to do this is lumped with others under the grouping "Tabs and browsing history".           
+                So, it's very misleading, and many extension developers have complained about it because it confuses users. They have plans to change it. 
+                Rest assured, Social Fixer will never access any of your private information, browsing history, cookies, stored data, or anything else personal. The goal of Social Fixer is to fix annoyances, not create them!
+            </h4>
+           </div>
+            <hr>
+</main>
 
     <footer>
         <div id="rights">

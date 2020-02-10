@@ -1,0 +1,150 @@
+
+body{
+margin:0px;
+padding:0px;
+background-image:url("/home/bassem/Project-1/sliders/faq-bg.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(206, 199, 199);
+    z-index: 1;
+    white-space: nowrap;
+    justify-content: space-evenly;
+    height: 3em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .nav-bar a {
+    display: inline-block;
+    color: rgb(83, 81, 81);
+    text-align: center;
+    padding: 15px;
+    text-decoration:none;
+    overflow: hidden;
+  }
+  
+  .nav-bar a:hover {
+    border-bottom: 3px solid #fd4967;
+  }
+
+
+  #btn-donate{
+    width: 100px;
+    background-color: rgb(207, 151, 118);
+    border-radius:15%;
+    color:red;
+    font-size: large;
+    cursor: pointer;
+  }
+  
+  #btn-donate:hover{
+    color:blue;
+  }
+
+  #currentlyOn {
+    border-bottom: 3px solid #fc3153;
+  }
+
+  .faq-h1{
+    margin: 10%;
+    text-align: center;
+    font-size:70px;
+    color: #082175
+  }
+
+#first-faq-quest{
+    text-align: center;
+    color:#082175
+}
+
+#first-faq-ans{
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+  
+hr{
+    color:red;
+    width:70%;
+    border: dotted;
+}
+
+#second-faq-quest{
+    text-align: center;
+    color:#082175
+}
+
+#second-faq-ans{
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+#third-faq-quest{
+    text-align: center;
+    color:#082175
+}
+
+#third-faq-ans{
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+#fourth-faq-quest{
+    text-align: center;
+    color:#082175
+}
+
+#fourth-faq-ans{
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+#fifth-faq-quest{
+    text-align: center;
+    color:#082175
+}
+
+#fifth-faq-ans{
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+
+.padding-faq{
+    padding-top:5%;
+}
+
+  footer {
+    background-color:transparent;
+    padding: 1.5em;
+    margin-top: 18.5em;
+  }
+  
+  #rights {
+    text-align: center;
+    color: #fff;
+  }
+  
+  
+  .priv-policy {
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(179, 174, 174);
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+
