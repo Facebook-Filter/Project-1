@@ -64,7 +64,7 @@ body {
 #download-btn{
   color:white;
   background-color: red;
-  margin-left: 30em;
+  margin-left: 43em;
   margin-right: 50em;
   margin-top: 5em;
   width:200px;
@@ -318,3 +318,10 @@ footer a {
   animation: 20s slider infinite;
 }
 
+.mySlides {display:none;}
+
+.slider-2-container{
+ margin:12%;
+ /* max-width:100%; */
+
+}
