@@ -93,3 +93,34 @@ footer {
 .feature-grid > img {
   justify-self: center;
 }
+
+.browser-logos {
+  display: grid;
+  grid-template-columns: 5em 5em 5em 5em 5em;
+  justify-content: space-around;
+}
+
+.firefox-logo {
+  height: 5em;
+  background: url("./images/firefox-logo.png") no-repeat center/cover;
+}
+
+.chrome-logo {
+  height: 5em;
+  background: url("./images/chrome-logo.png") no-repeat center/cover;
+}
+
+.safari-logo {
+  height: 5em;
+  background: url("./images/safari-logo.png") no-repeat center/cover;
+}
+
+.opera-logo {
+  height: 5em;
+  background: url("./images/opera-logo.png") no-repeat center/cover;
+}
+
+.edge-logo {
+  height: 5em;
+  background: url("./images/edge-logo.png") no-repeat center/cover;
+}
