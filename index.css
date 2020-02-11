@@ -107,6 +107,7 @@ footer a {
   color:red;
   font-size: large;
   cursor: pointer;
+  margin-top: -10px;
 }
 
 #btn-donate:hover{
@@ -323,5 +324,51 @@ footer a {
 .slider-2-container{
  margin:12%;
  /* max-width:100%; */
+}
 
+#validation-form{
+  /* margin: 20%; */
+  margin-top: 10%;
+}
+
+#text-name{
+  width: 300px;
+}
+
+#text-email{
+  width: 300px;
+}
+
+.Supportive-p{
+  margin-top:10%;
+  margin-left:100px;
+  margin-right: 20px;
+}
+
+#give-btn{
+  width: 310px;
+  height: 30px;
+  color: white;
+  background-color:rgb(30, 139, 30)
+}
+
+#textarea{
+  position: relative;
+  margin-top: -15px;
+}
+
+.validation-fbPhoto{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 120px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 15%;
+}
+
+#fb-donation{
+  width:30em;
+  height: 580px;
+  opacity: 70%;
+  border: 0px;
 }

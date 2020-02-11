@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel= "stylesheet" type= "text/css" href='index-2.css' />
+    <link rel= "stylesheet" type= "text/css" href='index.css' />
     <script src="https://kit.fontawesome.com/bed37d49d0.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
@@ -22,15 +22,51 @@
             <a href="blogs.html">Blogs</a>
             <a href="faq.html">FAQ</a>
             <a href="support.html">Support</a>
-            <input type="button" value="Donate" id="btn-donate">
+            <a href="donate.html">
+                <button id="btn-donate">Donate</button>
+               </a>
         </nav>
     </header>
+
+    <main>
+        <div class="Supportive-p">
+        <h1>To make this Web-App a valuable project, We need your support.</h1>
+        <h3>We appreciate every donation that can build this service to be one of your favorate Web-Module.<br>
+            "This project exists because of people like you"</h3>
+        </div>
+
+
+        <div class="validation-fbPhoto">
+        <div>
+        <form name="myForm" id="validation-form" onsubmit="return validateForm()" method="post">
+            Your name: <br><input type="text" placeholder="Enter your name here.. " id="text-name"><br><br>
+            Your email address: <br><input type="text" placeholder="Enter your email here.." id="text-email"><br><br>
+            Amount to give: <br>$ <input type="text" id="text-amount"><br><br>
+            <h4>Make this a recurring donation:</h4>
+            <input type="radio"> No,just once<br>
+            <input type="radio"> Every month<br>
+            <input type="radio"> Every 3 months (quarterly)<br>
+            <input type="radio"> Every 6 months (semi-annually)<br> 
+            <input type="radio"> Every year (annually)<br>
+             <h6>(optional)</h6>
+            <textarea class="textarea" placeholder="Add your comment here.." id="textarea"></textarea><br><br>
+            <input type="submit" id="give-btn" value="Give"><br>        
+          </form>
+        </div>
+
+          <div>
+              <img src="/home/bassem/Project-1/sliders/fb-donation.jpg" id="fb-donation">
+          </div>
+        </div>
+
+    </main>
 
     <footer>
         <div id="rights">
           © 2020 www.socialmasters.com - All rights reserved. 
         </div>
     </footer>
+
 </body>
 
 </html>

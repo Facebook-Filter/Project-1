@@ -41,6 +41,7 @@ body {
     color:red;
     font-size: large;
     cursor: pointer;
+    margin-top: -10px;
   }
   
   #btn-donate:hover{
