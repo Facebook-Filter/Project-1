@@ -98,6 +98,7 @@ footer {
   display: grid;
   grid-template-columns: 5em 5em 5em 5em 5em;
   justify-content: space-around;
+  margin-top: 4em;
 }
 
 .firefox-logo {
@@ -123,4 +124,17 @@ footer {
 .edge-logo {
   height: 5em;
   background: url("./images/edge-logo.png") no-repeat center/cover;
+}
+
+.download-page-main {
+  margin: 5em 7em 14em 7em;
+}
+
+#download-install {
+  margin-top: 1em;
+}
+
+#install-info {
+  font-size: 14px;
+  margin-top: 2em;
 }
