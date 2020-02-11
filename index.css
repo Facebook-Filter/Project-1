@@ -6,9 +6,15 @@ body {
 }
 
 .logo {
-  background: url("images/facebook-logo.png") no-repeat; /*not working*/
-  width: 3em;
-  height: 3em;
+  background: url("images/shortcut-icon.png") no-repeat center/cover;
+  border-radius: 5px;
+  display: flex;
+  width: 2em;
+  height: 2em;
+}
+
+.logo-div {
+  align-self: center;
 }
 
 header {
@@ -47,7 +53,7 @@ main {
   margin-left: 3em;
 }
 
-.nav-bar a {
+.nav-bar > a {
   display: inline-block;
   color: black;
   text-align: center;
@@ -55,7 +61,7 @@ main {
   text-decoration: none;
 }
 
-.nav-bar a:hover {
+.nav-bar > a:hover {
   border-bottom: 3px solid #fa405f;
 }
 
@@ -102,7 +108,7 @@ footer {
 }
 
 .browser-logos a {
-  filter: drop-shadow(10px 15px 9px crimson);
+  filter: drop-shadow(10px 15px 9px #4444dd);
 }
 
 .firefox-logo {
