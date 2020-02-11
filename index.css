@@ -5,7 +5,7 @@ body {
 }
 
 .logo {
-  background: url("images/facebook-logo.png") no-repeat;
+  background: url("images/facebook-logo.png") no-repeat; /*not working*/
   width: 3em;
   height: 3em;
 }
@@ -18,7 +18,7 @@ header {
 }
 
 .mainandfooter {
-  background-image: linear-gradient(#ffffff, #1e4291);
+  background-image: linear-gradient(#ffffff, #284a94);
 }
 
 main {
@@ -27,6 +27,7 @@ main {
 
 .nav-bar {
   color: black;
+  font-weight: normal;
   display: flex;
   flex-direction: row;
   white-space: nowrap;
@@ -37,7 +38,7 @@ main {
 
 #currentlyOn {
   border-bottom: 3px solid #fc284b;
-  color: #fa183d;
+  color: #fc284b;
 }
 
 .donate-button {
@@ -54,7 +55,7 @@ main {
 }
 
 .nav-bar a:hover {
-  border-bottom: 3px solid #fc5571;
+  border-bottom: 3px solid #fa405f;
 }
 
 footer {
@@ -62,36 +63,7 @@ footer {
   color: #ffffff;
   padding: 1.5em;
   margin-top: 7em;
-}
-
-#rights {
-  display: flex;
-  justify-content: center;
-  margin-top: 50px;
-  color: #b3aeae;
-}
-
-#donate {
-  color: fuchsia;
-}
-
-footer a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.footer-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-.footer-grid-2 {
-  line-height: 15px;
-}
-
-.justify-icons {
-  display: flex;
-  justify-content: space-evenly;
+  text-align: center;
 }
 
 .question {
@@ -109,11 +81,14 @@ footer a {
 
 .feature-grid {
   display: grid;
-  grid-template-columns: min-content 60%;
+  grid-template-columns: 45% 60%;
+  margin-top: 3em;
 }
 
-.rtl {
-  display: grid;
-  grid-template-columns: min-content 60%;
-  direction: rtl;
+.feature-grid > p {
+  margin: 2em;
+}
+
+.feature-grid > img {
+  justify-self: center;
 }
