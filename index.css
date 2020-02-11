@@ -101,6 +101,10 @@ footer {
   margin-top: 4em;
 }
 
+.browser-logos a {
+  filter: drop-shadow(10px 15px 9px crimson);
+}
+
 .firefox-logo {
   height: 5em;
   background: url("./images/firefox-logo.png") no-repeat center/cover;
@@ -127,7 +131,8 @@ footer {
 }
 
 .download-page-main {
-  margin: 5em 7em 14em 7em;
+  margin: 5em 7em 15em 7em;
+  display: grid;
 }
 
 #download-install {
@@ -137,4 +142,13 @@ footer {
 #install-info {
   font-size: 14px;
   margin-top: 2em;
+}
+
+#download-card {
+  justify-self: center;
+  width: 80%;
+  margin-top: 3em;
+  padding: 3em;
+  border: 2px solid gray;
+  border-radius: 8px;
 }
