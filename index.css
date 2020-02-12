@@ -13,6 +13,11 @@ body {
   height: 2em;
 }
 
+.logo:active {
+  position:relative;
+	top:1px;
+}
+
 .logo-div {
   align-self: center;
 }
@@ -49,8 +54,12 @@ main {
 }
 
 .donate-button {
-  color: fuchsia!important;
-  margin-left: 3em;
+  color: #fc28a4!important;
+}
+
+.donate-button:active {
+  position:relative;
+	top:1px;
 }
 
 .nav-bar > a {
@@ -105,6 +114,7 @@ footer {
   grid-template-columns: 5em 5em 5em 5em 5em;
   justify-content: space-around;
   margin-top: 4em;
+  height: 5em;
 }
 
 .browser-logos a {
@@ -112,27 +122,22 @@ footer {
 }
 
 .firefox-logo {
-  height: 5em;
   background: url("./images/firefox-logo.png") no-repeat center/cover;
 }
 
 .chrome-logo {
-  height: 5em;
   background: url("./images/chrome-logo.png") no-repeat center/cover;
 }
 
 .safari-logo {
-  height: 5em;
   background: url("./images/safari-logo.png") no-repeat center/cover;
 }
 
 .opera-logo {
-  height: 5em;
   background: url("./images/opera-logo.png") no-repeat center/cover;
 }
 
 .edge-logo {
-  height: 5em;
   background: url("./images/edge-logo.png") no-repeat center/cover;
 }
 
@@ -151,10 +156,38 @@ footer {
 }
 
 #download-card {
+  color: white;
   justify-self: center;
   width: 80%;
   margin-top: 3em;
   padding: 3em;
   border: 2px solid gray;
   border-radius: 8px;
+  background-image: linear-gradient(#445d91, #54668f);
+}
+
+.download-button {
+  box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+
+.download-button:hover {
+  background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+
+.download-button:active {
+  position:relative;
+	top:1px;
 }
